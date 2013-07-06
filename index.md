@@ -1,8 +1,8 @@
 ---
 layout: default
+title: May Bayes Be With You
 ---
 {% include JB/setup %}
-
 
 <h2>Posts</h2>
 <ul class="posts">
