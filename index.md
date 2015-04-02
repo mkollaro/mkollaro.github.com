@@ -12,6 +12,19 @@ title: May Bayes Be With You
 </ul>
 
 <h2>Projects</h2>
-* [DestroyStack](https://github.com/mkollaro/destroystack) - Fail injection
+* [NSim](https://github.com/mkollaro/nsim) - physics simulator of the Solar
+  system (or any other) with both CSV and OpenGL output
+* [DestroyStack](https://github.com/mkollaro/destroystack) - Fault injection
    tests for OpenStack
+* [LaunchpadStats](https://github.com/mkollaro/launchpadstats) - create tables out
+  of launchpad statistics (e.g how many commits each user has)
+* [Taskrunner](https://github.com/mkollaro/taskrunner) - very simple executor of
+  Python scripts, made to replace a more complicated tool
+* [C fragments](https://github.com/mkollaro/c_snippets) - experiments and
+  exercises in C
+
+
+<h2>Contact</h2>
+* irc: mkollaro on freenode.net
+* email: mkollaro (AT) gmail (DOT) com
 
