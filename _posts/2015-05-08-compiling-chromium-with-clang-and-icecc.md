@@ -62,8 +62,13 @@ Clang takes some extra steps to set up, so let's get it running with
     $ export GYP_DEFINES="$GYP_DEFINES clang=0 linux_use_debug_fission=0 \
         linux_use_bundled_binutils=0"
 
-Now try to compile Chromium (I'm going to assume it's located in
-`~/chromium/` for the rest of the tutorial):
+You have to disable debug fission because it's [not supported in
+Icecream](https://github.com/icecc/icecream/issues/86) and disable the
+usage of bundled binutils because the `-S` option is not available in
+Icecream. Look at the [Chromium
+documentation](https://www.chromium.org/developers/gyp-environment-variables)
+for more info. Now try to compile Chromium (I'm going to assume it's
+located in `~/chromium/` for the rest of the tutorial):
 
     $ cd ~/chromium/src  # or wherever your source is
     $ ninja -C out/Release -t clean
