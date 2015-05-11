@@ -38,7 +38,7 @@ server with the scheduler)?
 2. Is `iceccd` running? Try `service iceccd status`.
 3. Is your computer is on the same network as the scheduler? Can you ping
 it? Can you connect to it using the Icecream port (8765 by default)?
-Try running `telnet <scheduler_ip> 6765`.
+Try running `telnet <scheduler_ip> 8765`.
 
 Once you have that, configure it to be used whenever the compiler gets called.
 Add `icecc` binaries to the *beginning* of your path (also add it to your
@@ -57,7 +57,7 @@ directory - don't worry, I'll get to that later.
 ## Chromium and Icecream without Clang
 
 Clang takes some extra steps to set up, so let's get it running with
-`gcc` first.
+`gcc` first (you can skip this section it if you want).
 
     $ export GYP_DEFINES="$GYP_DEFINES clang=0 linux_use_debug_fission=0 \
         linux_use_bundled_binutils=0"
