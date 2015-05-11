@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Compiling Chromium with Clang and Icecream"
-tags: [Chromium, clang, icecc]
+tags: [Chromium]
 ---
 
 [Icecream](https://github.com/icecc/icecream) lets you use the

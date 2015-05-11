@@ -2,7 +2,7 @@
 layout: post
 title: "OpenStack Swift 101"
 description: "How does the OpenStack object service work?"
-tags: [OpenStack, Swift, Grizzly]
+tags: [OpenStack]
 ---
 {% include JB/setup %}
 
