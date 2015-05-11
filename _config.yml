@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : May Bayes Be With You
-tagline: Technical blog about OpenStack, Python and the world in general.
+title : Random tech notes
+tagline: Occasional articles and tutorials.
 author :
   name : mkollaro
   email : mkollaro+github@gmail.com

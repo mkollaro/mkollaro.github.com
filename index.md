@@ -1,6 +1,6 @@
 ---
 layout: default
-title: May Bayes Be With You
+title: Random tech notes
 ---
 {% include JB/setup %}
 
