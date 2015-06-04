@@ -20,8 +20,10 @@ title: Random tech notes
   of launchpad statistics (e.g how many commits each user has)
 * [Taskrunner](https://github.com/mkollaro/taskrunner) - very simple executor of
   Python scripts, made to replace a more complicated tool
-* [C fragments](https://github.com/mkollaro/c_snippets) - experiments and
+* [C snippets](https://github.com/mkollaro/c_snippets) - experiments and
   exercises in C
+* [OpenGL snippets](https://github.com/mkollaro/c_snippets) - experiments and
+  reproducers for OpenGL bugs
 
 
 <h2>Contact</h2>
