@@ -22,7 +22,7 @@ title: Random tech notes
   Python scripts, made to replace a more complicated tool
 * [C snippets](https://github.com/mkollaro/c_snippets) - experiments and
   exercises in C
-* [OpenGL snippets](https://github.com/mkollaro/c_snippets) - experiments and
+* [OpenGL snippets](https://github.com/mkollaro/opengl_snippets) - experiments and
   reproducers for OpenGL bugs
 
 
