@@ -32,8 +32,21 @@ Since the commands are received asynchronously (?) trough IPC, they are put into
 a command buffer and executed from there, which makes it a bit difficult to
 debug (see `gpu/command_buffer/service/gles2_cmd_decoder.cc`)
 
+## what it does
+
+it draws the webpage (skia? huh?) and executes webgl, maybe it does some
+acceleration too?
+
 ## Debugging GPU code
 
 --in-process-gpu
 --gpu-launcher
 [apitrace](https://github.com/apitrace/)
+
+
+## A trip down the rabbit hole
+
+step by step of what happens when you call something in WebGL (like glViewport),
+what gets called by whom, the ipc message to the gpu process, how it goes trough
+the command buffer. Next step - what happens when you execute a basic opengl
+example - a triangle. Then again, what happens when you try using a texture.
