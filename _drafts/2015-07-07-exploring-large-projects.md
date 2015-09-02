@@ -29,3 +29,16 @@ be right, nobody else is going to read this. Make assumptions. Write it down
 when they are wrong. Write down 3 possible hypothesis on how a certain part of the
 system works and try to disprove them all. Embrace your confusion and put it on
 paper, swearwords and all. It will get better.
+
+
+## Archeology
+
+If you are lucky and the project uses some sort of version control, I recommend
+at least skimming trough the logs. In the worst case, try to at least get the
+oldest possible version of it, even if you have to get it from a floppy that you
+found in somebody's drawer.
+
+If you are *extremely* lucky and the project uses git and used it for a while, I
+highly recommend using:
+
+    $ git log --reverse --stat
