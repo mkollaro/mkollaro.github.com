@@ -119,7 +119,7 @@ Add the patched Chromium version of the Clang executable to your PATH
 right after Icecream (change the Chromium source location if it's
 different for you):
 
-     $ export PATH="/usr/lib/icecc/bin:$HOME/chromium/src/third_party/llvm-build/Release+Asserts/bin/:$PATH
+     $ export PATH="/usr/lib/icecc/bin:$HOME/chromium/src/third_party/llvm-build/Release+Asserts/bin/:$PATH"
 
 
 Set the Chromium `GYP_DEFINES` again (remove the previous definitions
