@@ -7,7 +7,13 @@ title: Random tech notes
 <h2>Posts</h2>
 <ul class="posts">
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+    {% if post.external_url %}
+      <li><span>{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.external_url }}" style="background-image:{{ BASE_PATH }}/assets/external.svg">
+      {{ post.title }}
+        </a></span></li>
+      {% else %}
+      <li><span>{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
+      {% endif %}
   {% endfor %}
 </ul>
 
