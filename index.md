@@ -6,6 +6,11 @@ layout: home
 ---
 
 <h2>Projects</h2>
+* [3D scanner](https://github.com/intel/depthcamera-3d-model-web-demo) -
+  Detect the movement of a depth camera without any motion sensor and create
+  a 3D model out of it.
+* [Depth camera point cloud](https://github.com/01org/depthcamera-pointcloud-web-demo) -
+  Demo on how to view the data from a depth camera in WebGL.
 * [NSim](https://github.com/mkollaro/nsim) - physics simulator of the Solar
   system (or any other) with both CSV and OpenGL output
 * [DestroyStack](https://github.com/mkollaro/destroystack) - Fault injection
