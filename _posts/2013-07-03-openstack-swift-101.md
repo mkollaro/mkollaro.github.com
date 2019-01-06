@@ -2,9 +2,8 @@
 layout: post
 title: "OpenStack Swift 101"
 description: "How does the OpenStack object service work?"
-tags: [OpenStack]
+categories: OpenStack
 ---
-{% include JB/setup %}
 
 Swift is an object storage service similar to [Amazon
 S3](http://aws.amazon.com/s3/).  It mainly focuses on being extremely reliable,

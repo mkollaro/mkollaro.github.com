@@ -1,21 +1,9 @@
 ---
-layout: default
-title: Random tech notes
----
-{% include JB/setup %}
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-<h2>Posts</h2>
-<ul class="posts">
-  {% for post in site.posts %}
-    {% if post.external_url %}
-      <li><span>{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.external_url }}" style="background-image:{{ BASE_PATH }}/assets/external.svg">
-      {{ post.title }}
-        </a></span></li>
-      {% else %}
-      <li><span>{{ post.date | date_to_string }} &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></span></li>
-      {% endif %}
-  {% endfor %}
-</ul>
+layout: home
+---
 
 <h2>Projects</h2>
 * [NSim](https://github.com/mkollaro/nsim) - physics simulator of the Solar
@@ -31,8 +19,4 @@ title: Random tech notes
 * [OpenGL snippets](https://github.com/mkollaro/opengl_snippets) - experiments and
   reproducers for OpenGL bugs
 
-
-<h2>Contact</h2>
-* irc: mkollaro on freenode.net
-* email: mkollaro (AT) gmail (DOT) com
 
