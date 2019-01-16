@@ -23,13 +23,14 @@ layout: home
 * [NSim](https://github.com/mkollaro/nsim) - physics simulator of the Solar
   system (or any other n-body system) with both CSV and OpenGL output. The
   images below show the Gnuplot visualizations.
+
     <a href="https://github.com/mkollaro/nsim">
        <img src="assets/slingshot.png" title="Slingshot maneuver of the Voyager"
-       width="200px">
+       height="200px">
     </a>
     <a href="https://github.com/mkollaro/nsim">
        <img src="assets/solarsystem-outer.png" title="The outer Solar system"
-       width="200px">
+       height="200px">
     </a>
 * [DestroyStack](https://github.com/mkollaro/destroystack) - Fault injection
    tests for OpenStack
