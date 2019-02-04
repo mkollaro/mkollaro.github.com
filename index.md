@@ -11,6 +11,9 @@ layout: home
   a 3D model out of it.
 
     <a href="https://github.com/intel/depthcamera-3d-model-web-demo">
+       <img src="assets/scanner.gif" title="3D scanner">
+    </a>
+    <a href="https://github.com/intel/depthcamera-3d-model-web-demo">
        <img src="assets/icp.gif" title="Iterative motion detection between two frames"
        width="200px">
     </a>
