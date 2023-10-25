@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "OpenStack Swift 101"
+published: false
 ---
 
 Swift is an object storage service similar to [Amazon
