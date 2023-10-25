@@ -6,6 +6,11 @@ layout: home
 ---
 
 <h2>Projects</h2>
+* Create mesh out of a pointcloud (Leica Geosystems)
+   <img src="assets/mesh1.jpeg" title="Mesh 1">
+   <img src="assets/mesh2.jpeg" title="Mesh 2">
+* Stitch two fisheye images into a single one (Leica Geosystems)
+   <img src="assets/fisheye.jpeg" title="Fisheye">
 * [3D scanner](https://github.com/intel/depthcamera-3d-model-web-demo) -
   Detect the movement of a depth camera without any motion sensor and create
   a 3D model out of it.
